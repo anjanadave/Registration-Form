@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    height: 80vh;
+    width: 80vw;
+    margin-left: 140px;
+    box-shadow: 5px 5px 25px grey;
+}
+
+.part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .header{
+    width: 40vw;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    background: #303952;
+    color: white;
+}
+
+.section .form{
+    width: 40vw;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header p{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header h2{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header img{
+    height: 20vh;
+    width: 10vw;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.header h3{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.form h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.form p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nme{
+    width: 15vw;
+    height: 7vh;
+    margin-top: 10px;
+}
+
+.form input{
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.lnme{
+    width: 15vw;
+    height: 7vh;
+} 
+
+.mail{
+    width: 30vw;
+    height: 7vh;
+    margin-bottom:20px;
+}
+
+.lable{
+  margin-right: 370px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  color: gray;
+}
+
+.days{
+    width: 30vw;
+    height: 7vh;
+    font-size: 18px;
+    margin-top: 10px; 
+}
+
+.btn{
+    width: 30vw;
+    height: 7vh;
+    font-size: 18px; 
+    background: blue; 
+    color: white;
+    border: none;
+}
